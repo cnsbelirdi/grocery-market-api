@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "qqr5svpdihoO/24pUj60yrOA3/6kWQrcuw8oo24vWjQ=",
+  "Source": "GroceryAPI.API",
+  "BasePath": "_content/GroceryAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GroceryAPI.API\\wwwroot",
+      "Source": "GroceryAPI.API",
+      "ContentRoot": "C:\\Users\\cansu\\Desktop\\Projects\\grocery-market-website\\GroceryAPI\\Presentation\\GroceryAPI.API\\wwwroot\\",
+      "BasePath": "_content/GroceryAPI.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

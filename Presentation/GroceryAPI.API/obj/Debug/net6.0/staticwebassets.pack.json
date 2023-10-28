@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\monster\\Desktop\\Projects\\grocery-market-website\\GroceryAPI\\Presentation\\GroceryAPI.API\\wwwroot\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-2.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\monster\\Desktop\\Projects\\grocery-market-website\\GroceryAPI\\Presentation\\GroceryAPI.API\\wwwroot\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-3.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\monster\\Desktop\\Projects\\grocery-market-website\\GroceryAPI\\Presentation\\GroceryAPI.API\\wwwroot\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-4.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\monster\\Desktop\\Projects\\grocery-market-website\\GroceryAPI\\Presentation\\GroceryAPI.API\\wwwroot\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\0dbc1d1e5faab718b2e3e7686bbcca00_01.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GroceryAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GroceryAPI.API.props",
+      "PackagePath": "build\\GroceryAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GroceryAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\GroceryAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GroceryAPI.API.props",
+      "PackagePath": "buildTransitive\\GroceryAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

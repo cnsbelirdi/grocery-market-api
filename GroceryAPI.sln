@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{25A22180-0EBB-4A76-8B57-9950BA2F145D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BA911990-82C7-4C2F-A168-20C490FE596C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4F424343-81D0-4B6A-99A5-6A5DFCAE390C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryAPI.Application", "Core\GroceryAPI.Application\GroceryAPI.Application.csproj", "{0BC9F035-0EAE-4410-BB92-480981E2F9B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryAPI.Domain", "Core\GroceryAPI.Domain\GroceryAPI.Domain.csproj", "{CDACA22C-ED14-4621-B392-8917662F6841}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryAPI.Infrastructure", "Infrastructure\GroceryAPI.Infrastructure\GroceryAPI.Infrastructure.csproj", "{55A96B3A-F24D-4534-B4D1-6CD204F80F62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryAPI.Persistence", "Infrastructure\GroceryAPI.Persistence\GroceryAPI.Persistence.csproj", "{44795105-DC2A-4187-9AD2-4F9648212DC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryAPI.API", "Presentation\GroceryAPI.API\GroceryAPI.API.csproj", "{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryAPI.SignalR", "Infrastructure\GroceryAPI.SignalR\GroceryAPI.SignalR.csproj", "{222221A4-92C6-465B-975C-7A545710F75B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC9F035-0EAE-4410-BB92-480981E2F9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC9F035-0EAE-4410-BB92-480981E2F9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC9F035-0EAE-4410-BB92-480981E2F9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC9F035-0EAE-4410-BB92-480981E2F9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDACA22C-ED14-4621-B392-8917662F6841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDACA22C-ED14-4621-B392-8917662F6841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDACA22C-ED14-4621-B392-8917662F6841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDACA22C-ED14-4621-B392-8917662F6841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A96B3A-F24D-4534-B4D1-6CD204F80F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A96B3A-F24D-4534-B4D1-6CD204F80F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A96B3A-F24D-4534-B4D1-6CD204F80F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A96B3A-F24D-4534-B4D1-6CD204F80F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44795105-DC2A-4187-9AD2-4F9648212DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44795105-DC2A-4187-9AD2-4F9648212DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44795105-DC2A-4187-9AD2-4F9648212DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44795105-DC2A-4187-9AD2-4F9648212DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222221A4-92C6-465B-975C-7A545710F75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222221A4-92C6-465B-975C-7A545710F75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222221A4-92C6-465B-975C-7A545710F75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222221A4-92C6-465B-975C-7A545710F75B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BC9F035-0EAE-4410-BB92-480981E2F9B9} = {25A22180-0EBB-4A76-8B57-9950BA2F145D}
+		{CDACA22C-ED14-4621-B392-8917662F6841} = {25A22180-0EBB-4A76-8B57-9950BA2F145D}
+		{55A96B3A-F24D-4534-B4D1-6CD204F80F62} = {BA911990-82C7-4C2F-A168-20C490FE596C}
+		{44795105-DC2A-4187-9AD2-4F9648212DC8} = {BA911990-82C7-4C2F-A168-20C490FE596C}
+		{FDCF1BDA-1115-4F2F-B62B-B87D55FB81A9} = {4F424343-81D0-4B6A-99A5-6A5DFCAE390C}
+		{222221A4-92C6-465B-975C-7A545710F75B} = {BA911990-82C7-4C2F-A168-20C490FE596C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD8A3BC-F538-4C64-A920-2B94057BD7B0}
+	EndGlobalSection
+EndGlobal
